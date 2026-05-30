@@ -1,0 +1,19 @@
+body {
+    background: radial-gradient(circle at top left,#312e81 0%,transparent 35%), #020617;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.glass {
+    background: rgba(15, 23, 42, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(18px);
+}
+.input {
+    background: rgba(15, 23, 42, 0.8);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    color: white;
+}
+.gradient-btn {
+    background: linear-gradient(135deg,#6366f1,#8b5cf6);
+}
+/* ... animations from your original code ... */
